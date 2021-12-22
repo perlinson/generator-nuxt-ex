@@ -1,19 +1,19 @@
-# generator-nuxt-vuex [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
-> generate vuex crud store  and crud page with vuetify
+# generator-nuxt-ex [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+> generate nuxt app && entity(frontend  crud view[vuex+vuetify], backend api[mongoose])
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-nuxt-vuex using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-nuxt-ex using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-nuxt-vuex
+npm install -g generator-nuxt-ex
 ```
 
 Then generate your new project:
 
 ```bash
-yo nuxt-vuex
+yo nuxt-ex
 ```
 
 ## Getting To Know Yeoman
@@ -28,11 +28,11 @@ yo nuxt-vuex
 MIT © [perlinson]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-nuxt-vuex.svg
-[npm-url]: https://npmjs.org/package/generator-nuxt-vuex
-[travis-image]: https://travis-ci.com/perlinson/generator-nuxt-vuex.svg?branch=master
-[travis-url]: https://travis-ci.com/perlinson/generator-nuxt-vuex
-[daviddm-image]: https://david-dm.org/perlinson/generator-nuxt-vuex.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/perlinson/generator-nuxt-vuex
-[coveralls-image]: https://coveralls.io/repos/perlinson/generator-nuxt-vuex/badge.svg
-[coveralls-url]: https://coveralls.io/r/perlinson/generator-nuxt-vuex
+[npm-image]: https://badge.fury.io/js/generator-nuxt-ex.svg
+[npm-url]: https://npmjs.org/package/generator-nuxt-ex
+[travis-image]: https://travis-ci.com/perlinson/generator-nuxt-ex.svg?branch=master
+[travis-url]: https://travis-ci.com/perlinson/generator-nuxt-ex
+[daviddm-image]: https://david-dm.org/perlinson/generator-nuxt-ex.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/perlinson/generator-nuxt-ex
+[coveralls-image]: https://coveralls.io/repos/perlinson/generator-nuxt-ex/badge.svg
+[coveralls-url]: https://coveralls.io/r/perlinson/generator-nuxt-ex

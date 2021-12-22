@@ -1,8 +1,8 @@
 {
-  "name": "generator-nuxt-vuex",
-  "version": "0.0.0",
-  "description": "generate vuex crud store  and crud page with vuetify",
-  "homepage": "https://github.com/perlinson/generator-nuxt-vuex",
+  "name": "generator-nuxt-ex",
+  "version": "0.0.2",
+  "description": "generate nuxt app && entity(frontend  crud view[vuex+vuetify], backend api[mongoose])",
+  "homepage": "https://github.com/perlinson/generator-nuxt-ex",
   "author": {
     "name": "perlinson",
     "email": "perlinson_2008@163.com",
@@ -40,7 +40,9 @@
     "lodash": "^4.17.21",
     "pluralize": "^8.0.0",
     "yeoman-generator": "^3.1.1",
-    "yosay": "^2.0.2"
+    "yosay": "^2.0.2",
+    "recast": "^0.11.13",
+    "reserved-words": "^0.1.1"
   },
   "jest": {
     "testEnvironment": "node"
@@ -78,7 +80,8 @@
   },
   "scripts": {
     "pretest": "eslint .",
-    "test": "jest"
+    "test": "jest",
+    "build": "yo nuxt-vuex"
   },
   "repository": "perlinson/generator-nuxt-vuex",
   "license": "MIT"

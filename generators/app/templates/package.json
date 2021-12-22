@@ -1,0 +1,42 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "bluebird": "^3.7.2",
+    "bodymen": "^1.1.1",
+    "core-js": "^3.15.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.3",
+    "morgan": "^1.10.0",
+    "nuxt": "^2.15.7",
+    "querymen": "^2.1.4",
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/plugin-proposal-export-default-from": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "vuetify": "^2.5.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/vuetify": "^1.12.1",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1"
+  }
+}

@@ -1,0 +1,117 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Program Files\Git\cmd;C:\Program Files (x86)\;C:\Program Files\nodejs\;C:\Program Files\Python37\;C:\ProgramData\chocolatey\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: F:\Working\generators\generator-nuxt-vuex\package.json: Unexpected token } in JSON at position 1093
+      at JSON.parse (<anonymous>)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "generator-nuxt-vuex",
+    "version": "0.0.0",
+    "description": "generate vuex crud store  and crud page with vuetify",
+    "homepage": "https://github.com/perlinson/generator-nuxt-vuex",
+    "author": {
+      "name": "perlinson",
+      "email": "perlinson_2008@163.com",
+      "url": "https://github.com/perlinson/"
+    },
+    "files": [
+      "generators"
+    ],
+    "main": "generators/index.js",
+    "keywords": [
+      "vuew",
+      "nuxt",
+      "nuxtjs",
+      "vue",
+      "yeoman-generator"
+    ],
+    "devDependencies": {
+      "coveralls": "^3.0.7",
+      "eslint": "^6.6.0",
+      "eslint-config-prettier": "^6.6.0",
+      "eslint-config-xo": "^0.27.2",
+      "eslint-plugin-prettier": "^3.1.1",
+      "husky": "^3.0.9",
+      "jest": "^26.1.0",
+      "lint-staged": "^9.4.3",
+      "prettier": "^1.19.1",
+      "yeoman-assert": "^3.1.1",
+      "yeoman-test": "^1.7.0"
+    },
+    "engines": {
+      "npm": ">= 4.0.0"
+    },
+    "dependencies": {
+      "chalk": "^2.1.0",
+      "lodash": "^4.17.21",
+      "pluralize": "^8.0.0",
+      "yeoman-generator": "^3.1.1",
+      "yosay": "^2.0.2",
+      "recast": "^0.11.13",
+      "reserved-words": "^0.1.1",
+    },
+    "jest": {
+      "testEnvironment": "node"
+    },
+    "lint-staged": {
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ],
+      "*.json": [
+        "prettier --write",
+        "git add"
+      ]
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "eslintConfig": {
+      "extends": [
+        "xo",
+        "prettier"
+      ],
+      "env": {
+        "jest": true,
+        "node": true
+      },
+      "rules": {
+        "prettier/prettier": "error"
+      },
+      "plugins": [
+        "prettier"
+      ]
+    },
+    "scripts": {
+      "pretest": "eslint .",
+      "test": "jest"
+    },
+    "repository": "perlinson/generator-nuxt-vuex",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
